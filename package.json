@@ -1,10 +1,10 @@
 {
-  "name": "rs-otp-plugin",
+  "name": "@strapi/otp-plugin-with-jwt",
   "version": "1.0.0",
   "description": "A custom plugin for sending OTP and generating JWT token",
   "private": false,
   "strapi": {
-    "name": "strapi-otp-plugin-jwt",
+    "name": "otp-plugin",
     "description": "Description of Otp Plugin plugin",
     "kind": "plugin",
     "displayName": "Otp Plugin"
