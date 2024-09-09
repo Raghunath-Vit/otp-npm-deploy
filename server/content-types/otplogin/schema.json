@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "otplogins",
+  "info": {
+    "singularName": "otplogin",
+    "pluralName": "otplogins",
+    "displayName": "OtpLogin"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": "Stores OTP login requests and statuses"
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true 
+    },
+    "content-type-builder": {
+      "visible": true
+    }
+  },
+  "attributes": {
+    "phoneNumber": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "minLength": 10,
+      "maxLength": 13
+    },
+    "otpCode": {
+      "type": "string",
+      "required": true,
+      "minLength": 6
+    },
+    "isUsed": {
+      "type": "boolean",
+      "default": false
+    },
+    "expiresAt": {
+      "type": "datetime",
+      "required": false
+    }
+  }
+}
