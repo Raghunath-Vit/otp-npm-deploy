@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/otp-plugin-with-jwt",
+  "name": "otp-plugin-with-jwt",
   "version": "1.0.0",
   "description": "A custom plugin for sending OTP and generating JWT token",
   "private": false,
