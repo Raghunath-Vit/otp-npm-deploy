@@ -1,10 +1,10 @@
 {
   "name": "rs-otp-plugin",
-  "version": "1.0.1",
-  "description": "A custom plugin for sending OTPs.",
+  "version": "1.0.0",
+  "description": "A custom plugin for sending OTP and generating JWT token",
   "private": false,
   "strapi": {
-    "name": "otp-plugin",
+    "name": "strapi-otp-plugin-jwt",
     "description": "Description of Otp Plugin plugin",
     "kind": "plugin",
     "displayName": "Otp Plugin"
@@ -15,12 +15,14 @@
   },
   "author": {
     "name": "Raghunath Singh",
-    "email": "raghunathsinghmannu1@gmail.com"
+    "email": "raghunathsinghmannu1@gmail.com",
+    "url":"https://strapi.io"
   },
   "maintainers": [
     {
       "name": "Raghunath Singh",
-      "email": "raghunathsinghmannu1@gmail.com"
+      "email": "raghunathsinghmannu1@gmail.com",
+      "url":"https://strapi.io"
     }
   ],
   "dependencies": {
@@ -41,6 +43,7 @@
     "styled-components": "^5.3.6"
   },
   "peerDependencies": {
+    "@strapi/strapi": "^4.0.0",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^5.2.0",
