@@ -1,4 +1,3 @@
-// src/config/index.js
 const https = require('https');
 const dotenv = require('dotenv');
 
